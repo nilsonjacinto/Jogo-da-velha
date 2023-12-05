@@ -7,12 +7,12 @@
 html {
     font-size: 62.5%;
     font-family: cursive;
-    background-color:rgb(132, 89, 8);
+    background-color:green;
 }
 
 .conteudo {
     margin-top: 4rem;
-    background-color: #958908;
+    background-color:aquamarine;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -25,20 +25,21 @@ html {
 
 .title {
     font-size: 3rem;
-    color: red;
+    color:orange;
     margin-bottom: 1rem;
+    margin-top: 10rem;
     text-transform: uppercase;
 }
 
 h4 {
     font-size: 1.6rem;
-    color: rgb(66, 24, 217);
+    color:black;
 }
 
 span {
     margin-left: 0.4rem;
     font-size: 3rem;
-    color: rgb(255, 255, 255)
+    color: white;
 } 
 
 
@@ -51,7 +52,7 @@ span {
 }
 
 .celula {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid orangered;
     width: 120px;
     height:110px;
     cursor: pointer;
@@ -59,7 +60,7 @@ span {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    color: white;
+    color: black;
 }
 
 .restart {
@@ -68,7 +69,7 @@ span {
     margin-top: 1.5rem;
     border-radius: 2%;
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: black;
     border: none;
     cursor: pointer;
     box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.55);
@@ -79,16 +80,27 @@ span {
 
 .restart:hover {
 
-    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.55);
+    box-shadow: orange;
 }
 
 .resultado {
 
     margin-top: 2rem;
     font-size: 2.8rem;
-    color: white;
+    color: black;
     background-color: #a13800;
     border-radius: 6px;
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
+    box-shadow: orange;
+
+}
+
+
+@media (max-width: 395px){
+
+.conteudo .title {
+
+margin-top: 20rem;
+
+}
 
 }
